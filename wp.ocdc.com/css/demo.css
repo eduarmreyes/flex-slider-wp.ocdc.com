@@ -164,7 +164,7 @@ body {width: 100%; float: left; opacity: 1; -webkit-transition: opacity 1s ease;
 ***********************/
 #container {padding: 60px 40px 100px;}
 header {width: 420px; float: left;}
-#main {margin-left: 420px; margin-top: -25px;overflow: hidden;}
+#main {overflow: hidden;}
 aside h3 {float: left;}
 
 /* Header
