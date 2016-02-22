@@ -66,11 +66,14 @@
       SyntaxHighlighter.all();
     });
     $(window).load(function(){
+    	var randomthis = Math.floor((Math.random()* $('.flexslider li').length )+1);
+
       $('.flexslider').flexslider({
         animation: "slide",
         start: function(slider){
           $('body').removeClass('loading');
-        }
+        },
+        startAt: randomthis
       });
     });
   </script>
