@@ -164,7 +164,7 @@ body {width: 100%; float: left; opacity: 1; -webkit-transition: opacity 1s ease;
 ***********************/
 #container {padding: 60px 40px 100px;}
 header {width: 420px; float: left;}
-#main {overflow: hidden;}
+#main {/*margin-left: 420px;*/ margin-top: -25px;overflow: hidden;}
 aside h3 {float: left;}
 
 /* Header
@@ -181,7 +181,7 @@ nav li.active a  { cursor: default; }
 
 /* Media Queries
 ***********************/
-@media screen and (max-width: 960px) {
+/*@media screen and (max-width: 960px) {
   #container {padding: 35px;}
   header {width: 380px;}
   #main {margin-left: 380px;}
@@ -193,9 +193,9 @@ nav li.active a  { cursor: default; }
   	margin-left: 0;
   	float: none;
   }
-}
+}*/
 @media screen and (max-width: 768px) {
-  #container {padding: 20px 30px;}
+  /*#container {padding: 20px 30px;}
   header {width: 100%; float: none; text-align: center;}
   header img  {width:120px;}
   header h1  { margin: 0 auto 10px; font-size: 32px; }
@@ -226,17 +226,17 @@ nav li.active a  { cursor: default; }
 		-webkit-box-shadow: 0 0 5px 0 rgba(0,0,0,.2), inset 0 0 2px 0 rgba(255,255,255,0.2);
 		   -moz-box-shadow: 0 0 5px 0 rgba(0,0,0,.2), inset 0 0 2px 0 rgba(255,255,255,0.2);
 	        	box-shadow: 0 0 5px 0 rgba(0,0,0,.2), inset 0 0 2px 0 rgba(255,255,255,0.2);
-	}
-	nav li {
-		display: none; /* hide all <li> items */
+	}*/
+	/*nav li {
+		display: none;  hide all <li> items 
 		margin: 0;
-	}
-	nav li a  { border: none!important; text-shadow: 1px 1px 0 rgba(0,0,0,0.3); }
+	}*/
+	/*nav li a  { border: none!important; text-shadow: 1px 1px 0 rgba(0,0,0,0.3); }
 	nav li a:hover  { text-decoration: underline; }
 	nav .active {
-		display: block; /* show only current <li> item */
-	}
-	nav a {
+		display: block; /* show only current <li> item 
+	}*/
+	/*nav a {
 		display: block;
 		padding: 10px 20px;
 		text-align: center;
@@ -254,10 +254,10 @@ nav li.active a  { cursor: default; }
 		position: absolute;
 		right: 10px;
 		top: 10px;
-	}
+	}*/
 
 	/* on nav hover */
-	nav ul:hover {
+	/*nav ul:hover {
 		background: #32679a;
 	}
 	nav ul:hover li {
@@ -273,7 +273,7 @@ nav li.active a  { cursor: default; }
 	}
 	nav ul:hover .active a:after  {
 		display: none;
-	}
+	}*/
   
 }
 

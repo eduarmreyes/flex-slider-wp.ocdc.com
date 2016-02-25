@@ -6,8 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 
   <!-- Syntax Highlighter -->
-  <link href="css/shCore.css" rel="stylesheet" type="text/css" />
-  <link href="css/shThemeDefault.css" rel="stylesheet" type="text/css" />
+  <!-- <link href="css/shCore.css" rel="stylesheet" type="text/css" /> -->
+  <!-- <link href="css/shThemeDefault.css" rel="stylesheet" type="text/css" /> -->
   <!-- Demo CSS -->
 	<link rel="stylesheet" href="css/demo.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="../flexslider.css" type="text/css" media="screen" />
@@ -17,17 +17,60 @@
 
   <style>
   	.flex-caption {
-  	    position:absolute;
-  	    left:50;right:50;bottom:0;
-  	    background:rgba(0, 0, 0,0.6);
-  	    z-index:1;padding:10px;
-  	 }
+      width: 82%;
+      padding: 2% 9%;
+      left: 0;
+      bottom: 0;
+      background: rgba(14, 34, 69, 0.64);
+      color: #fff;
+      text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+      font-size: 14px;
+      line-height: 18px;
+      position: absolute;
+      top: 37%;
+    }
+    .slides>li{
+      position: relative;
+    }
+    .flex-caption>a {
+      transition: none;
+      line-height: 45px;
+      border-width: 0px;
+      margin: 0px;
+      padding: 12px 15px;
+      letter-spacing: 0px;
+      font-weight: 400;
+      font-size: 13px;
+      background: #06348C;
+    }
 	  @media screen 
 	    and (min-width: 1200px) { 
   	  	.flex-direction-nav {
   	  		display: none;
   	  	}
   	}
+    @media screen and (max-width: 980px) {
+      .flex-caption {
+        max-width: 40%;
+        right: 0;
+        left: auto;
+        top: 0%;
+      }
+      .flex-control-nav li {
+        margin: 10px 0;
+        display: block;
+        right: 0;
+        left: auto;
+      }
+      .flex-control-nav {
+        bottom: 20%;
+        width: 25px;
+        right: 0;
+      }
+      .flex-direction-nav {
+        display: none;
+      }
+    }
   </style>
 
 </head>
@@ -40,23 +83,57 @@
           <ul class="slides">
             <li>
   	    	    <img src="images/hero1.jpg" />
-  	    	    <div class="flex-caption">Place Hold It Image</div>
+              <div class="flex-caption">
+                <h2>Aerospace and Aviation</h2>
+                <h3>The exiting future of Aerospace</h3>
+                <p class="col-xs-12">With Boeing's recent location added to nearby Charleston, Orangeburg County is in a leading position to accommodate future growth anticipated among the aerospace industry with GKN Aerospace and Sigmatex coming to the country.</p>
+                <a href="http://www.cyberjunkiesinteractive.com/ocdc2015/target-industries/advance-materials">Learn More</a>
+              </div>
   	    		</li>
   	    		<li>
   	    	    <img src="images/hero2.jpg" />
-  	    	    <div class="flex-caption">Place Hold It Image</div>
+  	    	    <div class="flex-caption">
+                <h2>Aerospace and Aviation</h2>
+                <h3>The exiting future of Aerospace</h3>
+                <p class="col-xs-12">With Boeing's recent location added to nearby Charleston, Orangeburg County is in a leading position to accommodate future growth anticipated among the aerospace industry with GKN Aerospace and Sigmatex coming to the country.</p>
+                <a href="http://www.cyberjunkiesinteractive.com/ocdc2015/target-industries/advance-materials">Learn More</a>
+              </div>
   	    		</li>
   	    		<li>
   	    	    <img src="images/hero3.jpg" />
-  	    	    <div class="flex-caption">Place Hold It Image</div>
+              <div class="flex-caption">
+                <h2>Aerospace and Aviation</h2>
+                <h3>The exiting future of Aerospace</h3>
+                <p class="col-xs-12">With Boeing's recent location added to nearby Charleston, Orangeburg County is in a leading position to accommodate future growth anticipated among the aerospace industry with GKN Aerospace and Sigmatex coming to the country.</p>
+                <a href="http://www.cyberjunkiesinteractive.com/ocdc2015/target-industries/advance-materials">Learn More</a>
+              </div>
   	    		</li>
   	    		<li>
   	    	    <img src="images/hero4.jpg" />
-  	    	    <div class="flex-caption">Place Hold It Image</div>
+              <div class="flex-caption">
+                <h2>Aerospace and Aviation</h2>
+                <h3>The exiting future of Aerospace</h3>
+                <p class="col-xs-12">With Boeing's recent location added to nearby Charleston, Orangeburg County is in a leading position to accommodate future growth anticipated among the aerospace industry with GKN Aerospace and Sigmatex coming to the country.</p>
+                <a href="http://www.cyberjunkiesinteractive.com/ocdc2015/target-industries/advance-materials">Learn More</a>
+              </div>
   	    		</li>
+            <li>
+              <img src="images/hero5.jpg" />
+              <div class="flex-caption">
+                <h2>Aerospace and Aviation</h2>
+                <h3>The exiting future of Aerospace</h3>
+                <p class="col-xs-12">With Boeing's recent location added to nearby Charleston, Orangeburg County is in a leading position to accommodate future growth anticipated among the aerospace industry with GKN Aerospace and Sigmatex coming to the country.</p>
+                <a href="http://www.cyberjunkiesinteractive.com/ocdc2015/target-industries/advance-materials">Learn More</a>
+              </div>
+            </li>
   	    		<li>
-  	    	    <img src="images/hero5.jpg" />
-  	    	    <div class="flex-caption">Place Hold It Image</div>
+  	    	    <img src="images/hero6.jpg" />
+              <div class="flex-caption">
+                <h2>Aerospace and Aviation</h2>
+                <h3>The exiting future of Aerospace</h3>
+                <p class="col-xs-12">With Boeing's recent location added to nearby Charleston, Orangeburg County is in a leading position to accommodate future growth anticipated among the aerospace industry with GKN Aerospace and Sigmatex coming to the country.</p>
+                <a href="http://www.cyberjunkiesinteractive.com/ocdc2015/target-industries/advance-materials">Learn More</a>
+              </div>
   	    		</li>
           </ul>
         </div>
