@@ -51,14 +51,46 @@
   	  		display: none;
   	  	}
   	}
+    @media screen and (min-width: 789px) {
+      .slides > li {
+        position: relative;
+      }
+      .flex-caption {
+        max-width: 40%;
+        top: 0%;
+        position: absolute;
+        height: 100%;
+      }
+      .flex-caption > h2 {
+        transform: rotate(90deg);
+        transform-origin: left top 0;
+        margin-left: -8%;
+        margin-top: -5%;
+        font-size: 1.3rem;
+        padding: 1rem;
+        background: #12203D;
+        width: 92%;
+        text-align: center;
+      }
+      .flex-caption > h3 {
+        font-size: 40px;
+      }
+    }
     @media screen and (max-width: 980px) {
       .flex-direction-nav {
         display: none;
       }
     }
-    @media screen and (max-width: 789px) {
-      .flex-caption {
-        max-width: 82%;
+    @media screen and (min-width: 889px) {
+      .flex-caption > h2 {
+        margin-left: -10%;
+        width: 93%;
+      }
+    }
+    @media screen and (min-width: 1058px) {
+      .flex-caption > h2 {
+        margin-left: -13%;
+        width: 95%;
       }
     }
   </style>
