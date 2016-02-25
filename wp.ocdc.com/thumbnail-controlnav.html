@@ -16,6 +16,9 @@
   <script src="js/modernizr.js"></script>
 
   <style>
+    .slides {
+      overflow: hidden;
+    }
     .slides li {
       background: #000;
     }
@@ -44,6 +47,7 @@
     }
     .flex-control-nav {
       bottom: 5px;
+      z-index: 3;
     }
 	  @media screen 
 	    and (min-width: 1200px) { 
@@ -74,11 +78,6 @@
       }
       .flex-caption > h3 {
         font-size: 40px;
-      }
-    }
-    @media screen and (max-width: 980px) {
-      .flex-direction-nav {
-        display: none;
       }
     }
     @media screen and (min-width: 889px) {
@@ -191,7 +190,6 @@
     	var randomthis = Math.floor((Math.random()* $('.flexslider li').length )+1);
 
       $('.flexslider').flexslider({
-        animation: "slide",
         start: function(slider){
           $('body').removeClass('loading');
         },
