@@ -16,6 +16,12 @@
   <script src="js/modernizr.js"></script>
 
   <style>
+    p.col-xs-12 {
+        margin-top: 5%;
+    }
+    .flex-direction-nav {
+      display: none;
+    }
     .slides {
       overflow: hidden;
     }
@@ -24,8 +30,8 @@
     }
     .flex-caption {
       width: 82%;
-      padding: 2% 9%;
-      background: rgba(14, 34, 69, 0.64);
+      padding: 10% 9% 1px 9%;
+      background: rgba(77,89,111,0.95);
       color: #fff;
       text-shadow: 0 -1px 0 rgba(0,0,0,.3);
       font-size: 14px;
@@ -43,66 +49,62 @@
       background: #06348C;
     }
     .flex-caption > .spacer {
-      margin: 0px 0px 20px 0px;
+      margin: 0px 0px 40px 0px;
       text-align: right;
     }
     .flex-control-nav {
-      bottom: 5px;
+      bottom: 15px;      
       z-index: 3;
     }
-	  @media screen 
-	    and (min-width: 1200px) { 
-  	  	.flex-direction-nav {
-  	  		display: none;
-  	  	}
-  	}
-    @media screen and (min-width: 789px) {
+    .flex-caption > h2 {
+      font-size: 3rem;
+    }
+    @media screen and (min-width: 1024px) {
+      .flex-direction-nav {
+        display: inherit;
+      }
       .slides > li {
         position: relative;
       }
       .flex-caption {
-        max-width: 40%;
+        max-width: 25%;
         top: 0%;
         position: absolute;
         height: 100%;
       }
-      .flex-caption > h2 {
+      .caption-header{
         transform: rotate(90deg);
         transform-origin: left top 0;
-        margin-left: -8%;
-        margin-top: -5%;
-        font-size: 1.3rem;
-        padding: 1rem;
-        background: #12203D;
-        width: 92%;
-        text-align: center;
+        background: rgba(6,19,51,0.85);
+        position: absolute;
+        left: 15%;
+        top: 0;
+        width: 100%;
+        padding: 3rem;
+      }
+      .caption-header > h2 {
+        margin-left: 13%;
+        font-size: 2rem;
       }
       .flex-caption > h3 {
-        font-size: 40px;
+        font-size: 33px;
       }
       .flex-control-nav {
-        bottom: 50px;
-        right: 0;
+        bottom: 15%;
+        right: 10%;
         width: 45%;
         text-align: left;
       }
-    }
-    @media screen and (min-width: 889px) {
-      .flex-caption > h2 {
-        margin-left: -10%;
-        width: 93%;
+      .spacer > a {
+        margin-right: -16%;
       }
-    }
-    @media screen and (min-width: 1058px) {
-      .flex-caption > h2 {
-        margin-left: -13%;
-        width: 95%;
+      .caption-header {
+        left: 18%;
       }
-    }
-    @media screen and (min-width: 1020px) {
       .flex-caption > p {
-        font-size: 20px;
-        line-height: 30px;
+        font-size: 15px;
+        line-height: 25px;
+        margin-top: 5%;
       }
       .flex-caption > .spacer {
         margin: 20px 0px 20px 0px;
@@ -122,8 +124,11 @@
             <li>
   	    	    <img src="images/hero1.jpg" />
               <div class="flex-caption">
-                <h2>Aerospace and Aviation</h2>
-                <h3>The exiting future of Aerospace</h3>
+                <div class="caption-header">
+                  <h2>Aerospace and Aviation</h2>
+                </div>
+                <h3>The exiting future of</h3>
+                <h2>Aerospace</h2>
                 <p class="col-xs-12">With Boeing's recent location added to nearby Charleston, Orangeburg County is in a leading position to accommodate future growth anticipated among the aerospace industry with GKN Aerospace and Sigmatex coming to the country.</p>
                 <div class="spacer">
                   <a href="http://www.cyberjunkiesinteractive.com/ocdc2015/target-industries/advance-materials">Learn More</a>
@@ -133,8 +138,11 @@
   	    		<li>
   	    	    <img src="images/hero2.jpg" />
   	    	    <div class="flex-caption">
-                <h2>Aerospace and Aviation</h2>
-                <h3>The exiting future of Aerospace</h3>
+                <div class="caption-header">
+                  <h2>Aerospace and Aviation</h2>
+                </div>
+                <h3>The exiting future of</h3>
+                <h2>Aerospace</h2>
                 <p class="col-xs-12">With Boeing's recent location added to nearby Charleston, Orangeburg County is in a leading position to accommodate future growth anticipated among the aerospace industry with GKN Aerospace and Sigmatex coming to the country.</p>
                 <div class="spacer">
                   <a href="http://www.cyberjunkiesinteractive.com/ocdc2015/target-industries/advance-materials">Learn More</a>
@@ -144,8 +152,11 @@
   	    		<li>
   	    	    <img src="images/hero3.jpg" />
               <div class="flex-caption">
-                <h2>Aerospace and Aviation</h2>
-                <h3>The exiting future of Aerospace</h3>
+                <div class="caption-header">
+                  <h2>Aerospace and Aviation</h2>
+                </div>
+                <h3>The exiting future of</h3>
+                <h2>Aerospace</h2>
                 <p class="col-xs-12">With Boeing's recent location added to nearby Charleston, Orangeburg County is in a leading position to accommodate future growth anticipated among the aerospace industry with GKN Aerospace and Sigmatex coming to the country.</p>
                 <div class="spacer">
                   <a href="http://www.cyberjunkiesinteractive.com/ocdc2015/target-industries/advance-materials">Learn More</a>
@@ -155,8 +166,11 @@
   	    		<li>
   	    	    <img src="images/hero4.jpg" />
               <div class="flex-caption">
-                <h2>Aerospace and Aviation</h2>
-                <h3>The exiting future of Aerospace</h3>
+                <div class="caption-header">
+                  <h2>Aerospace and Aviation</h2>
+                </div>
+                <h3>The exiting future of</h3>
+                <h2>Aerospace</h2>
                 <p class="col-xs-12">With Boeing's recent location added to nearby Charleston, Orangeburg County is in a leading position to accommodate future growth anticipated among the aerospace industry with GKN Aerospace and Sigmatex coming to the country.</p>
                 <div class="spacer">
                   <a href="http://www.cyberjunkiesinteractive.com/ocdc2015/target-industries/advance-materials">Learn More</a>
@@ -166,8 +180,11 @@
             <li>
               <img src="images/hero5.jpg" />
               <div class="flex-caption">
-                <h2>Aerospace and Aviation</h2>
-                <h3>The exiting future of Aerospace</h3>
+                <div class="caption-header">
+                  <h2>Aerospace and Aviation</h2>
+                </div>
+                <h3>The exiting future of</h3>
+                <h2>Aerospace</h2>
                 <p class="col-xs-12">With Boeing's recent location added to nearby Charleston, Orangeburg County is in a leading position to accommodate future growth anticipated among the aerospace industry with GKN Aerospace and Sigmatex coming to the country.</p>
                 <div class="spacer">
                   <a href="http://www.cyberjunkiesinteractive.com/ocdc2015/target-industries/advance-materials">Learn More</a>
@@ -177,8 +194,11 @@
   	    		<li>
   	    	    <img src="images/hero6.jpg" />
               <div class="flex-caption">
-                <h2>Aerospace and Aviation</h2>
-                <h3>The exiting future of Aerospace</h3>
+                <div class="caption-header">
+                  <h2>Aerospace and Aviation</h2>
+                </div>
+                <h3>The exiting future of</h3>
+                <h2>Aerospace</h2>
                 <p class="col-xs-12">With Boeing's recent location added to nearby Charleston, Orangeburg County is in a leading position to accommodate future growth anticipated among the aerospace industry with GKN Aerospace and Sigmatex coming to the country.</p>
                 <div class="spacer">
                   <a href="http://www.cyberjunkiesinteractive.com/ocdc2015/target-industries/advance-materials">Learn More</a>
